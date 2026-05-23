@@ -42,23 +42,28 @@ API:et använder en MySQL-databas. Klona ner källkodsfilerna, kör kommando npm
 | **Metod** | **Ändpunkt**        | **Beskrivning**                                                                   |
 | --------- | ------------------- | --------------------------------------------------------------------------------- |
 | GET       | /workexperience     | Hämtar alla tillgängliga poster.                                                  |
-| ------    | -----               | -------                                                                           |
+| -------   |
 | GET       | /workexperience/:ID | Hämtar en specifik post med angivet ID.                                           |
-| ------    | -----               | -------                                                                           |
+| ------    |
 | POST      | /workexperience     | Lagrar en ny post. Kräver att ett objekt skickas med.                             |
-| ------    | -----               | -------                                                                           |
+| -------   |
 | PUT       | workexperience/:ID  | Uppdaterar en existerande post med angivet ID. Kräver att ett objekt skickas med. |
-| ------    | -----               | -------                                                                           |
+| -------   |
 | DELETE    | workexperience/:ID  | Raderar en post med angivet ID.                                                   |
 | ------    |
 
 Ett objekt returneras/skickas som JSON med följande struktur:
 
 {
-  "companyname": "Jobb",
-  "jobtitle": "Developer",
-  "location": "Stockholm",
-  "startdate": "2024-01-01",
-  "enddate": "2024-12-31",
-  "description": "Jobbade med webbutveckling"
+"companyname": "Jobb",
+
+"jobtitle": "Developer",
+
+"location": "Stockholm",
+
+"startdate": "2024-01-01",
+
+"enddate": "2024-12-31",
+
+"description": "Jobbade med webbutveckling"
 }
