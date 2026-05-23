@@ -18,10 +18,8 @@ app.use(express.json());
 // Använd cors-middleware för att tillåta cross-origin requests
 app.use(cors()); 
 
-
 // Routes - Använd de definierade rutterna
 app.use("/api/workexperience", workexperienceRoutes);
-
 
 // Starta server och lyssna på den angivna porten
 app.listen(port, () => {

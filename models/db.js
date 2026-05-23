@@ -15,7 +15,7 @@ const connection = mysql.createConnection({
 // Anslut till MySQL-databasen
 connection.connect((err) => {
 
-    // Om det uppstår ett fel, logga det och annars logga att anslutningen lyckades
+    // Om det uppstår ett fel, logga det och annars logga att anslutningen lyckades 
     if (err) {
         console.log("Fel vid anslutning:", err);
     } else {
