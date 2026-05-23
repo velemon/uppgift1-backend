@@ -19,6 +19,7 @@ API:et använder en MySQL-databas. Klona ner källkodsfilerna, kör kommando npm
 | **workexperience** |
 | ------------------ | ------------ | --------------- |
 | **Fält**           | **Typ**      | **Beskrivning** |
+| ------------------ | ------------ | --------------- |
 | id                 | INT (PK, AI) | Unikt ID        |
 | companyname        | VARCHAR(255) | Företag         |
 | jobtitle           | VARCHAR(255) | Jobbtitel       |
