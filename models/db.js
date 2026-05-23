@@ -23,5 +23,5 @@ connection.connect((err) => {
     }
 });
 
-// Exportera anslutningen så att den kan användas i andra filer
+// Exportera anslutningen så att den kan användas i andra filer 
 module.exports = connection;
