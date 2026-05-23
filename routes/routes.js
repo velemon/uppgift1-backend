@@ -7,7 +7,7 @@ const router = express.Router();
 const db = require("../models/db");
 
 
-// Get all
+// GET all
 router.get("/", (req, res) => {
     // SQL-fråga för att hämta alla arbetserfarenheter
     const sql = "SELECT * FROM workexperience";
@@ -116,7 +116,7 @@ router.post("/", (req, res) => {
 });
 
 
-// Put
+// PUT
 // Definiera en PUT-rutt för att uppdatera en befintlig arbetserfarenhet baserat på id  
 router.put("/:id", (req, res) => {
     // Hämta id från URL-parametrarna
@@ -185,7 +185,7 @@ router.put("/:id", (req, res) => {
 });
 
 
-// Delete
+// DELETE
 // Definiera en DELETE-rutt för att radera en befintlig arbetserfarenhet baserat på id
 router.delete("/:id", (req, res) => {
 
