@@ -39,31 +39,26 @@ API:et använder en MySQL-databas. Klona ner källkodsfilerna, kör kommando npm
 
 ## Användning
 
-| **Metod** | **Ändpunkt**        | **Beskrivning**                                                                   |
-| --------- | ------------------- | --------------------------------------------------------------------------------- |
-| GET       | /workexperience     | Hämtar alla tillgängliga poster.                                                  |
-| 
-| GET       | /workexperience/:ID | Hämtar en specifik post med angivet ID.                                           |
+| **Metod** | **Ändpunkt**    | **Beskrivning**                  |
+| --------- | --------------- | -------------------------------- |
+| GET       | /workexperience | Hämtar alla tillgängliga poster. |
 |
-| POST      | /workexperience     | Lagrar en ny post. Kräver att ett objekt skickas med.                             |
+| GET | /workexperience/:ID | Hämtar en specifik post med angivet ID. |
 |
-| PUT       | workexperience/:ID  | Uppdaterar en existerande post med angivet ID. Kräver att ett objekt skickas med. |
+| POST | /workexperience | Lagrar en ny post. Kräver att ett objekt skickas med. |
 |
-| DELETE    | workexperience/:ID  | Raderar en post med angivet ID.                                                   |
+| PUT | workexperience/:ID | Uppdaterar en existerande post med angivet ID. Kräver att ett objekt skickas med. |
+|
+| DELETE | workexperience/:ID | Raderar en post med angivet ID. |
 |
 
 Ett objekt returneras/skickas som JSON med följande struktur:
 
-{
-"companyname": "Jobb",
-
-"jobtitle": "Developer",
-
-"location": "Stockholm",
-
-"startdate": "2024-01-01",
-
-"enddate": "2024-12-31",
-
+{ <br>
+"companyname": "Jobb", <br>
+"jobtitle": "Developer", <br>
+"location": "Stockholm", <br>
+"startdate": "2024-01-01", <br>
+"enddate": "2024-12-31", <br>
 "description": "Jobbade med webbutveckling"
-}
+} <br>
