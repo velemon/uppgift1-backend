@@ -15,7 +15,8 @@ const workexperienceRoutes = require("./routes/routes");
 
 // Middleware - Använd express.json() för att kunna parsa JSON i request body och cors() för att hantera CORS
 app.use(express.json());
-app.use(cors());
+// Använd cors-middleware för att tillåta cross-origin requests
+app.use(cors()); 
 
 
 // Routes - Använd de definierade rutterna
