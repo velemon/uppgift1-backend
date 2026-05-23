@@ -46,7 +46,7 @@ API:et använder en MySQL-databas. Klona ner källkodsfilerna, kör kommando npm
 | GET                                                      | /workexperience/:ID | Hämtar en specifik post med angivet ID.                                           |
 | ---------                                                | ---------------     | --------------------------------                                                  |
 | POST                                                     | /workexperience     | Lagrar en ny post. Kräver att ett objekt skickas med.                             |
-| ---------                                                | ---------------     | --------------------------------                                                  |
+| ---------              --------------------------------                                                  |
 | PUT                                                      | workexperience/:ID  | Uppdaterar en existerande post med angivet ID. Kräver att ett objekt skickas med. |
 | ---------                                                | ---------------     | --------------------------------                                                  |
 | DELETE                                                   | workexperience/:ID  | Raderar en post med angivet ID.                                                   |
