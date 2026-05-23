@@ -24,7 +24,7 @@ router.get("/", (req, res) => {
 });
 
 
-// Get by id
+// GET by id
 router.get("/:id", (req, res) => {
     // Hämta id från URL-parametrarna
     const id = req.params.id;
@@ -49,7 +49,7 @@ router.get("/:id", (req, res) => {
 });
 
 
-// Post
+// POST
 // Definiera en POST-rutt för att skapa en ny arbetserfarenhet
 router.post("/", (req, res) => {
     // Strukturera ut de nödvändiga fälten från request body
