@@ -17,23 +17,15 @@ http://localhost:3000/api/workexperience
 API:et använder en MySQL-databas. Klona ner källkodsfilerna, kör kommando npm install för att installera nödvändiga npm-paket. Kör installations-skriptet install.js. Installations-skriptet skapar databastabeller enligt nedanstående:
 
 | **workexperience** |
-| ------------------ | ------------ | --------------- |
+| ------ |
 | **Fält**           | **Typ**      | **Beskrivning** |
-| ------             | -----        | -------         |
 | id                 | INT (PK, AI) | Unikt ID        |
-| ------             | -----        | -------         |
 | companyname        | VARCHAR(255) | Företag         |
-| ------             | -----        | -------         |
 | jobtitle           | VARCHAR(255) | Jobbtitel       |
-| ------             | -----        | -------         |
 | location           | VARCHAR(255) | Plats           |
-| ------             | -----        | -------         |
 | startdate          | DATE         | Startdatum      |
-| ------             | -----        | -------         |
 | enddate            | DATE         | Slutdatum       |
-| ------             | -----        | -------         |
 | description        | TEXT         | Beskrivning     |
-| ------             | -----        | -------         |
 
 ---
 
